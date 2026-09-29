@@ -10,7 +10,7 @@
 您不需要手動下載檔案或設定複雜路徑！只要打開您的 **Antigravity 2.0**，在對話框中貼上以下這段話（請將網址替換為您的 GitHub Repo 網址）：
 
 ```text
-請閱讀這個 GitHub Repo：https://github.com/<您的使用者名稱>/antigravity2-starter-pack
+請閱讀這個 GitHub Repo：https://github.com/Timacrypt/antigravity2-starter-pack
 並依照其中的 AGENTS.md 指引，將所有 Skills、clasp 與 NotebookLM MCP 自動安裝到我的 Antigravity 2.0 環境中。
 ```
 
@@ -24,7 +24,7 @@ Antigravity 2.0 就會自主讀取本專案、自動建立全域目錄（`~/.gem
 
 ### 方式 A：一鍵 Python 安裝腳本（跨平台）
 ```bash
-git clone https://github.com/<您的使用者名稱>/antigravity2-starter-pack.git
+git clone https://github.com/Timacrypt/antigravity2-starter-pack.git
 cd antigravity2-starter-pack
 python3 install.py
 ```
