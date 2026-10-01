@@ -21,8 +21,8 @@ def get_target_dirs():
     mcp_dir = os.path.join(home, ".gemini", "antigravity", "mcp", "notebooklm")
     return skills_dir, mcp_dir
 
-def install_skills(source_dir, skills_target):
-    print(f"\n[1/4] 📦 正在安裝 Agent Skills 至：{skills_target}")
+def install_skills(source_dir, skills_target, force=False):
+    print(f"\n[1/4] 📦 正在檢查並安裝 Agent Skills 至：{skills_target}")
     os.makedirs(skills_target, exist_ok=True)
     
     skills_src = os.path.join(source_dir, "skills")
@@ -31,15 +31,20 @@ def install_skills(source_dir, skills_target):
         return False
 
     installed_count = 0
+    skipped_count = 0
     for item in os.listdir(skills_src):
         src_item = os.path.join(skills_src, item)
         if os.path.isdir(src_item):
             dst_item = os.path.join(skills_target, item)
-            shutil.copytree(src_item, dst_item, dirs_exist_ok=True)
-            print(f"  ✓ 已安裝技能: {item}")
-            installed_count += 1
+            if os.path.exists(dst_item) and not force:
+                print(f"  ⏭️ 已存在，略過不安裝: {item}")
+                skipped_count += 1
+            else:
+                shutil.copytree(src_item, dst_item, dirs_exist_ok=True)
+                print(f"  ✓ 已安裝技能: {item}")
+                installed_count += 1
             
-    print(f"✨ 成功安裝 {installed_count} 個 Agent Skills！")
+    print(f"✨ 技能檢查完成：新安裝 {installed_count} 個，已存在略過 {skipped_count} 個！")
     return True
 
 def install_python_deps(source_dir):
@@ -97,8 +102,9 @@ def main():
     print_banner()
     source_dir = os.path.dirname(os.path.abspath(__file__))
     skills_target, mcp_target = get_target_dirs()
+    force = "--force" in sys.argv
     
-    install_skills(source_dir, skills_target)
+    install_skills(source_dir, skills_target, force=force)
     install_python_deps(source_dir)
     setup_clasp()
     setup_notebooklm(source_dir, mcp_target)
