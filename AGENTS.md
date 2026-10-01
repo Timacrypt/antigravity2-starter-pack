@@ -20,10 +20,18 @@ Copy every folder inside the `skills/` directory of this repository into the use
 - `brainstorming/`
 - `teach/`
 - `grill-me/`
+- `grilling/`
+- `grill-with-docs/`
 - `wait-what/` (Customized: Traditional Chinese zhtw, 10th-grade high school level, English technical terms)
 - `handoff/`
 - `to-questionnaire/`
 - `writing-for-agents/`
+- `ask-matt/`
+- `diagnosing-bugs/`
+- `research/`
+- `prototype/`
+- `to-spec/`
+- `frontend-design/`
 - `docx/`
 - `xlsx/`
 - `pptx/`
@@ -54,7 +62,8 @@ If npm is not installed or permission is denied, notify the user and provide ins
 
 ### Step 6: Confirmation & Summary
 Once installation is complete, output a clear summary to the user in Traditional Chinese (繁體中文):
-- List all 11 installed Skills with brief descriptions.
-- Explain how to trigger `/wait-what` (生動白話重新解釋).
-- Explain how to use Office document skills (Word, Excel, PowerPoint, PDF).
+- List all 21 installed Skills with brief descriptions.
+- Explain how to trigger `/ask-matt` for routing and `/wait-what` for plain explanations.
+- Explain how to use engineering skills (`/diagnosing-bugs`, `/prototype`, `/research`).
+- Explain how to use `frontend-design` and Office document skills (Word, Excel, PowerPoint, PDF).
 - Provide next steps for `clasp login` and `nlm login`.

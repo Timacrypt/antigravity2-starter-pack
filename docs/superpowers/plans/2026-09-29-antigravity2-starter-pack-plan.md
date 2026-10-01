@@ -55,3 +55,13 @@
 - [x] **Task 6.2**: 測試 `install.py` 的路徑偵測與複製邏輯。
 - [x] **Task 6.3**: 驗證特調版 `wait-what` 的 Prompt 結構。
 - [x] **Task 6.4**: 整理 GitHub Repo 上傳指南（`git init`, `git add`, `git commit`, `git remote add`），方便使用者一鍵推送到自己的 GitHub。
+
+### Phase 7: 軟體工程與前端設計技能擴充 (Engineering & Design Expansion)
+- [x] **Task 7.1**: 移植 `ask-matt`（AI 技能導航與分流器）。
+- [x] **Task 7.2**: 移植 `diagnosing-bugs`（系統化抓蟲診斷循環與重現腳本）。
+- [x] **Task 7.3**: 移植 `research`（第一手權威文獻/API 調研員）。
+- [x] **Task 7.4**: 移植 `prototype`（閃電 POC 原型機與 UI/Logic 分離）。
+- [x] **Task 7.5**: 移植 `grilling`（無情架構質詢核心底層）與 `grill-with-docs`（文檔對齊式質詢）。
+- [x] **Task 7.6**: 移植 `to-spec`（對話需求自動合成標準工程規格書）。
+- [x] **Task 7.7**: 移植 Anthropic 官方 `frontend-design`（頂尖前端美學與非模板化 UI 指引）。
+- [x] **Task 7.8**: 更新 `README.md`、`AGENTS.md` 與 `install.py`，全套技能擴充至 21 個。

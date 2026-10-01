@@ -50,9 +50,14 @@ def install_python_deps(source_dir):
             cmd = [sys.executable, "-m", "pip", "install", "-r", req_file]
             subprocess.check_call(cmd)
             print("  ✓ Python 依賴套件（python-docx, openpyxl, python-pptx, pypdf）安裝完成！")
-        except Exception as e:
-            print(f"  ⚠️ 套件安裝過程中發生提醒: {e}")
-            print("  您稍後可手動執行：pip install -r requirements.txt")
+        except Exception:
+            try:
+                cmd = [sys.executable, "-m", "pip", "install", "-r", req_file, "--break-system-packages"]
+                subprocess.check_call(cmd)
+                print("  ✓ Python 依賴套件（python-docx, openpyxl, python-pptx, pypdf）安裝完成！")
+            except Exception as e:
+                print(f"  ⚠️ 套件安裝過程中發生提醒: {e}")
+                print("  您稍後可手動執行：pip install -r requirements.txt")
     else:
         print("  ⚠️ 找不到 requirements.txt，略過。")
 
@@ -101,11 +106,13 @@ def main():
     print("\n" + "=" * 65)
     print("🎉 恭喜！Antigravity 2.0 Agent Starter Pack 已全數安裝完成！")
     print("您現在可以在 Antigravity 2.0 對話框中直接使用：")
+    print("  • /ask-matt       (AI 技能導航與分流器)")
     print("  • /brainstorming  (架構與需求規劃)")
     print("  • /teach          (啟動互動式教學工作區)")
     print("  • /grill-me       (質詢專案盲點)")
     print("  • /wait-what      (台灣高一生繁中生活比喻白話重述)")
-    print("  • Word/Excel/PPT/PDF 直接操作與生成")
+    print("  • /diagnosing-bugs & /prototype (工程實戰除錯與原型)")
+    print("  • frontend-design & Word/Excel/PPT/PDF 專業生成")
     print("=" * 65)
 
 if __name__ == "__main__":

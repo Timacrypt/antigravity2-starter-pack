@@ -1,7 +1,7 @@
 # 🚀 Antigravity 2.0 Agent Starter Pack
 
 > 專為 **Google Antigravity 2.0** 打造的開源、免費、高性能 Agent 技能與工具懶人包。  
-> 整合 **Matt Pocock 經典思維技能** ＋ **Anthropic 官方 Office 辦公系列** ＋ **clasp (Google Apps Script)** ＋ **NotebookLM MCP**。
+> 整合 **Matt Pocock 經典思維與工程技能組** ＋ **Anthropic 官方前端美學與 Office 辦公系列** ＋ **clasp (Google Apps Script)** ＋ **NotebookLM MCP**。
 
 ---
 
@@ -40,16 +40,18 @@ python3 install.py
 
 ---
 
-## 📦 內建技能庫一覽 (Skills Manifest)
+## 📦 內建技能庫一覽 (21 Curated Skills)
 
-### 1. 🎓 Matt Pocock 經典思維技能組
+### 1. 🎓 Matt Pocock 經典思維與協作流程技能組
 讓您與 AI Agent 的溝通如同學長姊或資深工程師協作般嚴謹精準：
 
-| 技能指令 | 核心功能說明 |
+| 技能指令 / 目錄 | 核心功能說明 |
 | :--- | :--- |
 | `/brainstorming` | 透過多輪互動探索需求，收斂點子並自動生成標準架構規格書（Spec）。 |
 | `/teach` | 將當前工作區轉為教學環境，追蹤學習歷程，循序漸進教授新技術。 |
 | `/grill-me` | 嚴格質詢您的計畫，主動找出潛在邏輯漏洞與邊界情境。 |
+| `/grilling` | 無情質詢的底層核心引擎，以決策樹與分輪提問挖掘最深層的架構前提。 |
+| `/grill-with-docs` | 結合現有文檔與程式碼進行質詢，邊面試邊自動維護 `GLOSSARY.md` 與架構決策紀錄（ADR）。 |
 | `/wait-what` | **【台灣特調版】** 當 AI 講得太深聽不懂時，以**台灣高一程度、生動生活比喻、繁體中文**重新解釋（專有名詞保留 English）。 |
 | `/handoff` | 跨對話交接！將目前對話的背景與進度濃縮成交接 Markdown，讓下個 Agent 無縫接手。 |
 | `/to-questionnaire` | 當決策資訊不足時，自動將模糊問題轉成結構化的是非/單選問卷。 |
@@ -57,25 +59,39 @@ python3 install.py
 
 ---
 
-### 2. 📄 Anthropic 官方 Office 辦公系列（無瑕適配 Antigravity）
-完整支援 Microsoft Office 與 PDF 檔案的建立、排版、計算與文字分析：
+### 2. ⚡ Matt Pocock 軟體工程與 Vibe Coding 實戰利器
+專為直覺式開發與防呆設計打造，徹底告別「AI 瞎猜、越修越爛」的死循環：
 
+| 技能指令 / 目錄 | 核心功能說明 |
+| :--- | :--- |
+| `/ask-matt` | **【AI 技能導航員】** 當您不知道現在該用什麼技能或下一步該做什麼時，只需用白話發問，它會自動為您導流推薦最佳工作流。 |
+| `/diagnosing-bugs` | **【系統化抓蟲偵探】** 在沒有定位出真正的 Root Cause 與重現步驟前**嚴禁動手亂改代碼**，帶領您一步步精準定位並除錯。 |
+| `/research` | **【第一手權威調研員】** 強制 AI 翻閱最新官方 First-party 文件與 API 規範，防止引用過時語法或憑空產生幻覺。 |
+| `/prototype` | **【閃電原型打造機】** 拒絕過度設計！專注於以最小、最乾淨的拋棄式代碼（Throwaway Code）快速驗證業務邏輯或 UI 效果。 |
+| `/to-spec` | **【規格書合成器】** 將當前的對話共識與需求自動彙整成嚴謹、可交付的工程規格書（Spec），不進行額外面試。 |
+
+---
+
+### 3. 🎨 Anthropic 官方前端美學與 Office 辦公系列（無瑕適配 Antigravity）
+擺脫千篇一律的「AI 罐頭感」，兼顧頂尖 UI 視覺設計與全方位辦公文檔自動化：
+
+* **`frontend-design`**：由 Anthropic 設計團隊打造的視覺指導規範，避免模板化與陳腔濫調，針對主題提供獨特的調色盤、字體排版、視覺層次與現代佈局。
 * **`docx`**：生成排版優美的 Word 報告（標題樣式、表格、頁眉頁腳、目錄），解析既有 Word 文檔與追蹤修訂。
 * **`xlsx`**：建立專業 Excel 財務/數據試算表，內建公式運算、數據透視分析與格式設定。
 * **`pptx`**：自動生成簡報投影片，配置現代化版面與圖文方塊。
 * **`pdf`**：精準萃取 PDF 內的文字與表格，並能生成結構化摘要與報告。
 
-> 💡 **環境自修復保證**：本系列已內建 Python 自動偵測機制，若電腦缺少 `python-docx` 或 `openpyxl`，Agent 在執行時會自動一鍵補裝，絕不報錯中斷！
+> 💡 **環境自修復保證**：Document 系列已內建 Python 自動偵測機制，若電腦缺少 `python-docx` 或 `openpyxl`，Agent 在執行時會自動一鍵補裝，絕不報錯中斷！
 
 ---
 
-### 3. 🛠️ 生態擴充技能組
+### 4. 🛠️ 生態擴充技能組
 * **`skill-creator`**：引導您從零設計、編寫並測試屬於您自己的全新 Antigravity Skill。
 * **`find-skills`**：快速搜尋並安裝開源社群中的各類優秀 Agent Skills。
 
 ---
 
-### 4. 🔌 外部工具與 MCP 整合 (Tools & MCP)
+### 5. 🔌 外部工具與 MCP 整合 (Tools & MCP)
 * **Google Apps Script CLI (`clasp`)**：
   * 支援直接在本地終端管理 Google 試算表/文件/表單的自動化腳本。
   * 執行 `npm i -g @google/clasp` 即可安裝，搭配 `clasp login` 即可開始使用。
@@ -98,5 +114,5 @@ python3 install.py
 
 本專案採用 **MIT License** 開源釋出。  
 特別致敬並感謝：
-* [Matt Pocock](https://github.com/mattpocock/skills) 貢獻之 Agent 思維架構。
-* [Anthropic](https://github.com/anthropics/skills) 貢獻之辦公文檔處理規範。
+* [Matt Pocock](https://github.com/mattpocock/skills) 貢獻之 Agent 思維與工程實戰技能庫。
+* [Anthropic](https://github.com/anthropics/skills) 貢獻之前端設計美學與辦公文檔處理規範。
