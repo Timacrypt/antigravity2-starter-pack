@@ -1,6 +1,6 @@
 ---
 name: setup-opencode
-description: 當使用者明確提出「OpenCode 安裝」或「安裝 OpenCode」時觸發。以純繁體中文、極致新手友善方式，引導完全不懂技術的台灣學員在網頁註冊 OpenCode 並取得 Zen 免費 API Key。學員無需自行打開終端機輸入指令，AI Agent 會主動在後台代為執行安裝與金鑰配置。注意：此為 On-Demand 按需提供技能，平常對話中切勿主動推銷或主動詢問使用者是否要安裝。
+description: "OpenCode 安裝：引導取得 Zen 免費金鑰，並由 AI 在後台代為安裝與設定 OpenCode（按需使用）。"
 metadata:
   icon: "💻"
   emoji: "💻"

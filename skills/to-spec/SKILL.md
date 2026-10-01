@@ -1,6 +1,6 @@
 ---
 name: to-spec
-description: "Turn the current conversation into a spec and publish it to the project issue tracker: no interview, just synthesis of what you've already discussed."
+description: "轉為規格書：將當前對話中的討論與共識，整理成標準的工程規格書。"
 disable-model-invocation: true
 metadata:
   icon: "📐"

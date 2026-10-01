@@ -1,6 +1,6 @@
 ---
 name: to-questionnaire
-description: Turn a decision you can't fully answer into a questionnaire for someone else to fill in.
+description: "轉為問卷：當問題資訊不足以做決定時，整理成結構化問卷供他人填寫。"
 disable-model-invocation: true
 metadata:
   icon: "📋"

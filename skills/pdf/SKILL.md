@@ -1,6 +1,6 @@
 ---
 name: pdf
-description: "Extract text, parse tables, merge, split, and inspect Portable Document Format (.pdf) files. Use when the user asks to read PDF documents, extract content from PDFs, summarize PDF research papers, or handle PDF files."
+description: "PDF 文件：擷取文字與表格、合併拆分、分析與處理 PDF 文件。"
 metadata:
   icon: "📕"
   emoji: "📕"

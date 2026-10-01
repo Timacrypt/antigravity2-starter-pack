@@ -1,6 +1,6 @@
 ---
 name: grilling
-description: Grill the user relentlessly about a plan, decision, or idea. Use when the user wants to stress-test their thinking, or uses any 'grill' trigger phrases.
+description: "嚴格追問：針對計畫、決策或想法進行連續深入提問，找出思考盲點。"
 metadata:
   icon: "🥩"
   emoji: "🥩"

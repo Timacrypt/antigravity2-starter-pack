@@ -1,6 +1,6 @@
 ---
 name: prototype
-description: Build a throwaway prototype to answer a design question. Use when the user wants to sanity-check whether a state model or logic feels right, or explore what a UI should look like.
+description: "快速原型：用最小程式碼快速建立概念驗證原型，確認設計或功能邏輯。"
 metadata:
   icon: "⚡"
   emoji: "⚡"

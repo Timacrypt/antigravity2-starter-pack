@@ -1,6 +1,6 @@
 ---
 name: setup-google-workspace-mcp
-description: 當使用者明確提出「Google Workspace MCP 安裝」或「安裝 Google Workspace MCP」時觸發。以純繁體中文、極致無腦、看圖點擊（方位+顏色+中英對照）方式，一步步引導完全不懂英文與技術的台灣學員開啟 Google Drive、Sheets、Docs API 並完成 OAuth 憑證設置。注意：此為 On-Demand 按需提供技能，平常對話中切勿主動推銷或主動詢問使用者是否要安裝。
+description: "Google Workspace MCP 安裝：一步一步引導開啟雲端硬碟、試算表與文件 API 並設定憑證（按需使用）。"
 metadata:
   icon: "🌐"
   emoji: "🌐"

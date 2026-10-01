@@ -1,6 +1,6 @@
 ---
 name: pptx
-description: "Create, edit, analyze, and format Microsoft PowerPoint (.pptx) presentation decks. Use when the user asks to generate slides, design presentation decks, add cards or bullet layouts, format slide titles, or handle PowerPoint files."
+description: "PowerPoint 簡報：建立、編輯、分析與排版 Microsoft PowerPoint (.pptx) 簡報。"
 metadata:
   icon: "📽️"
   emoji: "📽️"

@@ -1,6 +1,6 @@
 ---
 name: xlsx
-description: "Create, read, edit, analyze, and format Microsoft Excel (.xlsx) spreadsheets. Use when the user asks to generate financial models, calculate formulas, format tables, analyze tabular data, or handle Excel files."
+description: "Excel 試算表：建立、讀取、編輯、分析與格式化 Microsoft Excel (.xlsx) 試算表。"
 metadata:
   icon: "📊"
   emoji: "📊"

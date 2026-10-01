@@ -1,6 +1,6 @@
 ---
 name: docx
-description: "Create, edit, analyze, and format Microsoft Word (.docx) documents. Use when the user wants to generate reports, edit Word documents, extract text or tables from .docx, format headings, add tables, or handle Word files."
+description: "Word 文件：建立、編輯、分析與排版 Microsoft Word (.docx) 文件與報告。"
 metadata:
   icon: "📄"
   emoji: "📄"

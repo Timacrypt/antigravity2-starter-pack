@@ -1,6 +1,6 @@
 ---
 name: ask-matt
-description: Ask which skill or flow fits your situation. A router over the skills in this repo.
+description: "技能推薦：根據你目前的狀況與需求，推薦最適合使用的技能或工作流程。"
 disable-model-invocation: true
 metadata:
   icon: "🧭"

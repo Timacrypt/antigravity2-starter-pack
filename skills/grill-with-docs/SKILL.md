@@ -1,6 +1,6 @@
 ---
 name: grill-with-docs
-description: A relentless interview to sharpen a plan or design, which also creates docs (ADR's and glossary) as we go.
+description: "文檔追問：透過持續提問完善計畫，並同步記錄架構決策（ADR）、規格與術語。"
 disable-model-invocation: true
 metadata:
   icon: "📑"

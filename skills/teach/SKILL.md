@@ -1,6 +1,6 @@
 ---
 name: teach
-description: Teach the user a new skill or concept, within this workspace.
+description: "教學引導：在當前專案中設定學習目標，循序漸進引導你學習新技能或概念。"
 disable-model-invocation: true
 argument-hint: "What would you like to learn about?"
 metadata:

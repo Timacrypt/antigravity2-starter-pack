@@ -1,6 +1,6 @@
 ---
 name: brainstorming
-description: "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation."
+description: "腦力激盪：在開始實作前，探索需求與設計方向，並整理成具體規格。"
 metadata:
   icon: "💡"
   emoji: "💡"

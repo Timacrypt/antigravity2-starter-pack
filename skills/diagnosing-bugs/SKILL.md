@@ -1,6 +1,6 @@
 ---
 name: diagnosing-bugs
-description: Diagnosis loop for hard bugs and performance regressions. Use when the user says "diagnose"/"debug this", or reports something broken/throwing/failing/slow.
+description: "診斷錯誤：排查難解的程式錯誤與效能問題，在確認根本原因前不盲目修改。"
 metadata:
   icon: "🐛"
   emoji: "🐛"

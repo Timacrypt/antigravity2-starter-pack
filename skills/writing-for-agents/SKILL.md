@@ -1,6 +1,6 @@
 ---
 name: writing-for-agents
-description: Writing documents for agents. Use when creating or editing skills, or modifying AGENTS.md or CLAUDE.md.
+description: "Agent 文件撰寫：指導如何撰寫 Agent 使用的提示詞、規則文件與技能說明。"
 metadata:
   icon: "✍️"
   emoji: "✍️"
