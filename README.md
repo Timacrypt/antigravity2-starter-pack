@@ -62,7 +62,7 @@ python3 install.py
 
 ---
 
-## 📦 內建技能庫一覽 (23 Curated Skills)
+## 📦 內建技能庫一覽 (25 Curated Skills)
 
 每個技能均配置專屬的視覺 Emoji 與圖示（支援 `metadata.icon` 與 `metadata.emoji`）：
 
@@ -113,7 +113,17 @@ python3 install.py
 
 ---
 
-### 4. 🛠️ 生態擴充技能組
+### 4. 🛎️ 選擇性進階安裝引導（On-Demand 按需呼叫）
+專為零技術背景、不會操作終端機的學員打造的保母級指引。**平常對話中 AI 不會主動推銷或打擾**，僅在學員主動提出需求時觸發：
+
+| 圖示 | 觸發語句 / 技能名稱 | 核心引導特色（專為台灣新手設計） |
+| :---: | :--- | :--- |
+| 🌐 | 「Google Workspace MCP 安裝」<br>`setup-google-workspace-mcp` | **【完全無腦看圖點擊】** 聚焦 Google Drive、Sheets、Docs 三大服務。提供直達官方連結、畫面按鈕方位與中英對照，帶您一步步完成 OAuth 憑證設置並破解安全警告。 |
+| 💻 | 「OpenCode 安裝」<br>`setup-opencode` | **【學員免開終端機】** 引導學員在網頁一鍵註冊 OpenCode 並取得 Zen 免費 API Key；學員無需親自開黑底終端機，由 AI Agent 在後台代勞執行安裝與金鑰綁定！ |
+
+---
+
+### 5. 🛠️ 生態擴充技能組
 | 圖示 | 技能名稱 | 核心功能說明 |
 | :---: | :--- | :--- |
 | 🛠️ | **`skill-creator`** | 引導您從零設計、編寫並測試屬於您自己的全新 Antigravity Skill。 |
@@ -121,7 +131,7 @@ python3 install.py
 
 ---
 
-### 5. 🔌 外部工具與 MCP 整合 (Tools & MCP)
+### 6. 🔌 外部工具與 MCP 整合 (Tools & MCP)
 * **Google Apps Script CLI (`clasp`)**：
   * 支援直接在本地終端管理 Google 試算表/文件/表單的自動化腳本。
   * 執行 `npm i -g @google/clasp` 即可安裝，搭配 `clasp login` 即可開始使用。

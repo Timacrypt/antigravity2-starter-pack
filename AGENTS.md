@@ -40,8 +40,15 @@ Copy every folder inside the `skills/` directory of this repository into the use
 - `skill-creator/`
 - `find-skills/`
 - `officecli/`
+- `setup-google-workspace-mcp/`
+- `setup-opencode/`
 
 *Note: Overwrite any existing files if the user requested a fresh installation or upgrade.*
+
+> ⚠️ **On-Demand 技能守則（重要）**：
+> - `setup-google-workspace-mcp` 與 `setup-opencode` 屬於**按需提供（On-Demand）技能**，僅在學員明確提出需求（如輸入「Google Workspace MCP 安裝」或「OpenCode 安裝」）時才啟動逐步引導。平常一般對話中**切勿主動推銷或主動詢問**是否需要安裝此二者。
+> - 在 `setup-opencode` 流程中，若學員不熟悉終端機，AI 應直接在背景代為執行安裝與金鑰配置，勿讓學員自行開啟終端機敲指令。
+> - 其餘所有 Skills、CLI、相依套件與教學專案皆為標準自動下載安裝。
 
 ### Step 3: Install Python Dependencies
 The document processing skills (`docx`, `xlsx`, `pptx`, `pdf`) require standard Python libraries.
@@ -64,10 +71,11 @@ If npm is not installed or permission is denied, notify the user and provide ins
 
 ### Step 6: Confirmation & Summary
 Once installation is complete, output a clear summary to the user in Traditional Chinese (繁體中文):
-- List all 23 installed Skills with their visual emoji icons and brief descriptions.
+- List all 25 installed Skills with their visual emoji icons and brief descriptions.
 - Explain how to trigger `/ask-matt` for routing and `/wait-what` for plain explanations.
 - Explain how to use engineering skills (`/diagnosing-bugs`, `/prototype`, `/research`).
 - Explain how to use `officecli`, `slide-simple`, `frontend-design`, and Office document skills (Word, Excel, PowerPoint, PDF).
+- Clarify that Google Workspace MCP and OpenCode are available on-demand whenever requested.
 - Provide next steps for `clasp login` and `nlm login`.
 
 ---
