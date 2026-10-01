@@ -39,6 +39,7 @@ Copy every folder inside the `skills/` directory of this repository into the use
 - `pdf/`
 - `skill-creator/`
 - `find-skills/`
+- `officecli/`
 
 *Note: Overwrite any existing files if the user requested a fresh installation or upgrade.*
 
@@ -63,10 +64,10 @@ If npm is not installed or permission is denied, notify the user and provide ins
 
 ### Step 6: Confirmation & Summary
 Once installation is complete, output a clear summary to the user in Traditional Chinese (繁體中文):
-- List all 22 installed Skills with their visual emoji icons and brief descriptions.
+- List all 23 installed Skills with their visual emoji icons and brief descriptions.
 - Explain how to trigger `/ask-matt` for routing and `/wait-what` for plain explanations.
 - Explain how to use engineering skills (`/diagnosing-bugs`, `/prototype`, `/research`).
-- Explain how to use `slide-simple`, `frontend-design`, and Office document skills (Word, Excel, PowerPoint, PDF).
+- Explain how to use `officecli`, `slide-simple`, `frontend-design`, and Office document skills (Word, Excel, PowerPoint, PDF).
 - Provide next steps for `clasp login` and `nlm login`.
 
 ---

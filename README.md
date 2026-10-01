@@ -62,7 +62,7 @@ python3 install.py
 
 ---
 
-## 📦 內建技能庫一覽 (22 Curated Skills)
+## 📦 內建技能庫一覽 (23 Curated Skills)
 
 每個技能均配置專屬的視覺 Emoji 與圖示（支援 `metadata.icon` 與 `metadata.emoji`）：
 
@@ -102,6 +102,7 @@ python3 install.py
 | 圖示 | 技能名稱 | 核心功能說明 |
 | :---: | :--- | :--- |
 | 🎨 | **`slide-simple`** | **【Swiss 編輯風簡報設計】** 以一組字母快速決定排版風格、Layout、表達形式、插畫與副色，確認完整文字設計稿後才產生高質感投影片圖片。 |
+| 🏢 | **`officecli`** | **【AI 專屬 Office 套件】** 單一二進位工具，支援以命令列直接讀寫 Word、Excel、PPT，內建即時 HTML/PNG 渲染預覽伺服器（`officecli watch`）。 |
 | ✨ | **`frontend-design`** | **【Anthropic 前端美學】** 避免模板化與陳腔濫調，針對主題提供獨特的調色盤、字體排版、視覺層次與現代佈局。 |
 | 📄 | **`docx`** | 生成排版優美的 Word 報告（標題樣式、表格、頁眉頁腳、目錄），解析既有 Word 文檔與追蹤修訂。 |
 | 📊 | **`xlsx`** | 建立專業 Excel 財務/數據試算表，內建公式運算、數據透視分析與格式設定。 |
