@@ -3,7 +3,8 @@ name: wait-what
 description: "等等，上一則訊息沒聽懂！以台灣高一程度（10th-grade level in Taiwan）、生動生活比喻、繁體中文重新白話解釋，專有名詞保留 English。觸發時機：當使用者聽不懂前一則回答、覺得太艱深、輸入 /wait-what 或表示「等等這什麼意思」時。"
 disable-model-invocation: true
 metadata:
-  icon: "🎓"
+  icon: "🤔"
+  emoji: "🤔"
 ---
 
 # /wait-what：台灣高一程度極致白話重新解說 (Traditional Chinese Edition)

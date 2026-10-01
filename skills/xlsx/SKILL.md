@@ -1,6 +1,9 @@
 ---
 name: xlsx
 description: "Create, read, edit, analyze, and format Microsoft Excel (.xlsx) spreadsheets. Use when the user asks to generate financial models, calculate formulas, format tables, analyze tabular data, or handle Excel files."
+metadata:
+  icon: "📊"
+  emoji: "📊"
 ---
 
 # xlsx: Excel Spreadsheet Processing Skill for Antigravity 2.0

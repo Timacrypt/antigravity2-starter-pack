@@ -1,6 +1,9 @@
 ---
 name: docx
 description: "Create, edit, analyze, and format Microsoft Word (.docx) documents. Use when the user wants to generate reports, edit Word documents, extract text or tables from .docx, format headings, add tables, or handle Word files."
+metadata:
+  icon: "📄"
+  emoji: "📄"
 ---
 
 # docx: Word Document Processing Skill for Antigravity 2.0

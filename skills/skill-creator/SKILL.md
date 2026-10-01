@@ -3,7 +3,8 @@ name: skill-creator
 description: >-
   Guides the user through designing, structuring, implementing, and validating new agent skills from scratch or from custom workflows. Use this skill whenever the user asks to create a new skill, build a skill, turn a workflow into a skill, optimize an existing skill, or scaffolding a skill directory structure.
 metadata:
-  icon: "🎓"
+  icon: "🛠️"
+  emoji: "🛠️"
 ---
 
 # Skill Creator (技能設計與建置專家)

@@ -1,6 +1,9 @@
 ---
 name: pdf
 description: "Extract text, parse tables, merge, split, and inspect Portable Document Format (.pdf) files. Use when the user asks to read PDF documents, extract content from PDFs, summarize PDF research papers, or handle PDF files."
+metadata:
+  icon: "📕"
+  emoji: "📕"
 ---
 
 # pdf: PDF Processing Skill for Antigravity 2.0

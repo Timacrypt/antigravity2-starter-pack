@@ -1,6 +1,9 @@
 ---
 name: pptx
 description: "Create, edit, analyze, and format Microsoft PowerPoint (.pptx) presentation decks. Use when the user asks to generate slides, design presentation decks, add cards or bullet layouts, format slide titles, or handle PowerPoint files."
+metadata:
+  icon: "📽️"
+  emoji: "📽️"
 ---
 
 # pptx: PowerPoint Presentation Processing Skill for Antigravity 2.0

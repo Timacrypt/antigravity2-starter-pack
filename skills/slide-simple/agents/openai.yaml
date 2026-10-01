@@ -1,0 +1,4 @@
+interface:
+  display_name: "投影片圖片設計引導"
+  short_description: "一次用字母選定風格、版面與插畫，副色由 AI 搭配，確認完整文字稿後生成圖片"
+  default_prompt: "請使用 $slide-simple，一次列出所有設計選項與例子，每組加入 Auto，讓我用 A B C C B 回覆；待我確認完整文字稿後才生圖。"
